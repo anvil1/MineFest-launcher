@@ -1,0 +1,41 @@
+/node_modules/
+/.vs/
+/.vscode/
+/target/
+/logs/
+/dist/
+/ipcconstants.js/
+/ipcconstants/
+ipcconstants.js
+
+# Configuration files with sensitive data
+config.json
+launcher_profiles.json
+user_jvm_args.txt
+*.log
+
+# Authentication tokens and user data
+auth/
+tokens/
+cache/
+temp/
+.minecraft/
+minecraft/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# User-specific settings
+settings.json
+user-settings.json
+launcher-settings.json
+
+# Microsoft/Mojang auth cache
+ms_auth_cache.json
+mojang_auth.json
+auth_cache/
+
+# Java installation paths (user-specific)
+java_paths.json
